@@ -1,9 +1,18 @@
-# Change Log
+# Changelog
 
-All notable changes to the "component-generator" extension will be documented in this file.
+Todas as alterações relevantes da extensão serão documentadas neste arquivo.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
+## [0.0.1] - 2026-07-30
 
-## [Unreleased]
+### Adicionado
 
-- Initial release
+- Comando para criação de componentes React.
+- Conversão automática do nome para PascalCase.
+- Criação dos arquivos:
+  - `Component.tsx`
+  - `Component.test.tsx`
+  - `Component.types.ts`
+  - `index.ts`
+- Integração com o menu de contexto do Explorer.
+- Suporte à execução pela Command Palette.
+- Tratamento de diretórios existentes e falhas parciais.

@@ -3,9 +3,11 @@
   "displayName": "Mamura Tools",
   "description": "Ferramentas para acelerar o desenvolvimento | React | Laravel | Symfony",
   "author": {
-    "name": "Mamura"
+    "name": "Mamura",
+    "url": "https://mamura.dev"
   },
-  "homepage": "https://github.com/mamura/mamura-tools",
+  "homepage": "https://github.com/mamura/mamura-tools#readme",
+  "icon": "resources/icon.png",
   "bugs": {
       "url": "https://github.com/mamura/mamura-tools/issues"
   },
@@ -67,7 +69,8 @@
     "check-types": "tsc --noEmit",
     "lint": "eslint src",
     "test": "vscode-test",
-    "package:vsix": "vsce package"
+    "package:vsix": "vsce package",
+    "package:vsix:pre-release": "vsce package --pre-release"
   },
   "devDependencies": {
     "@types/mocha": "^10.0.10",
